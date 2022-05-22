@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-top: 8px solid #222;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+    top: 0; left: 0; right: 0; bottom: 0;
+    height: 5rem;
+    z-index: 10;
+}
+
+.header a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    background: rgb(206, 0, 0);
+    padding: 7px 15px;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.header a:hover {
+    background: rgb(255, 0, 0);
+}
+
+
+.main {
+   background: url(/img/bg.jpg) center;
+   height: 657px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.main h1 {
+    font-size: 50px;
+    max-width: 700px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.main span {
+    font-size: 26px;
+    padding-top: 100px;
+}
+
+.main p {
+    font-size: 19px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.main-child {
+    z-index: 1;
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 430px 190px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.form-cta input {
+    height: 55px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.form-cta button {
+    background: rgb(206, 0, 0);
+    color: white;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-cta button:hover {
+    background: rgb(255, 0, 0);
+}
+
+.gradient {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    max-width: 1250px;
+}
+
+.img-tv {
+    position: relative;
+}
+
+.img-tv img {
+    position: relative;
+    z-index: 1000;
+}
+
+.video-tv {
+    position: absolute;
+    left: 80px;
+    top: 95px;
+}
+
+.title-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-section h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.title-section p {
+    font-size: 26px;
+}
+
+
+
+
+
+.container-cell {
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-top: 8px solid #222;
+    width: 100%;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: 0 auto;
+}
+
+.grid-cell {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    max-width: 1250px;
+}
+
+.title-section-cell {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-section-cell h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.title-section-cell p {
+    font-size: 26px;
+}
+
+.img-cell {
+    position: relative;
+}
+
+.card-animation {
+    background: black;
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 0.75em;
+    width: 60%;
+    bottom: 0;
+    min-width: 15em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+}
+
+.card-animation img {
+    padding: 10px;
+    width: 50px;
+}
+
+.card-animation p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.img-gif {
+    margin-left: 50px;
+}
+
+.video-tv-2 {
+    position: absolute;
+    left: 105px;
+    top: 50px;
+    width: 420px;
+}
+
+
+.card-text {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text h1 {
+    font-size: 50px;
+    padding: 35px;
+}
+
+.faq-list {
+    list-style: none;
+}
+
+.faq-question {
+    text-align: left;
+    font-size: 26px;
+    padding: 15px;
+    width: 800px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.card-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-email p {
+    font-size: 19px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px;
+    color: rgb(87, 87, 87);
+}
